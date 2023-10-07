@@ -104,7 +104,7 @@ echo -e "\n- crictl:"
 crictl -v
 
 echo -e "\n- kubectl:"
-kubectl version --short --client=true 2>/dev/null
+kubectl version --client=true
 
 echo -e "\n- kubelet:"
 kubelet --version
